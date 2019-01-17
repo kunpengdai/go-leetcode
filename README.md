@@ -1,2 +1,5 @@
 # gocode
-golang learning code
+go learning code
+
+## leetcode
+go实现leetcode的解法

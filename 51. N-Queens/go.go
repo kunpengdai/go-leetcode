@@ -26,7 +26,7 @@ func checkPos(poss []int, row, pos int) bool {
 	if row == 0 {
 		return true
 	}
-	for i:=0;i<row;i++ {
+	for i := 0; i < row; i++ {
 		if poss[i] == pos || abs(row-i) == abs(pos-poss[i]) {
 			return false
 		}
@@ -39,7 +39,6 @@ func dfs(n, row, pos int, poss []int, res *[][]string) {
 		*res = append(*res, genRes(poss))
 		return
 	}
-
 	if pos == n {
 		return
 	}

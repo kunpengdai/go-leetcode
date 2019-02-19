@@ -48,7 +48,6 @@ func findNext(nums []int, index int) int {
 		if nums[i] != nums[index] {
 			return i
 		}
-		fmt.Println("")
 	}
 	return len(nums)
 }

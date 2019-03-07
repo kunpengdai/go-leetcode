@@ -37,7 +37,7 @@ func sortList(head *ListNode) *ListNode {
 }
 
 func quickSort(head, tail *ListNode) {
-	if head == tail {
+	if head != tail {
 		pt := partation(head, tail)
 		quickSort(head, pt)
 		quickSort(pt.Next, tail)

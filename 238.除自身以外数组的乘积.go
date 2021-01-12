@@ -1,8 +1,10 @@
 /*
- * @lc app=leetcode id=238 lang=golang
+ * @lc app=leetcode.cn id=238 lang=golang
  *
- * [238] Product of Array Except Self
+ * [238] 除自身以外数组的乘积
  */
+
+// @lc code=start
  func productExceptSelf(nums []int) []int {
     res := make([]int,len(nums))
     for i := range nums{
@@ -18,4 +20,5 @@
     }
     return res
 }
+// @lc code=end
 

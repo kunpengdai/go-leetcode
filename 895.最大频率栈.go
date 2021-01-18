@@ -1,8 +1,10 @@
 /*
- * @lc app=leetcode id=895 lang=golang
+ * @lc app=leetcode.cn id=895 lang=golang
  *
- * [895] Maximum Frequency Stack
+ * [895] 最大频率栈
  */
+
+// @lc code=start
 type FreqStack struct {
 	maxFreq  map[int]int //map[num]frep
 	freqList map[int][]int
@@ -49,4 +51,5 @@ func (this *FreqStack) Pop() int {
  * obj.Push(x);
  * param_2 := obj.Pop();
  */
+// @lc code=end
 
